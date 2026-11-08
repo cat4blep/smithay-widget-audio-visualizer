@@ -1,0 +1,13 @@
+api = 1
+id = "audio-visualizer"
+name = "Audio visualizer"
+description = "Live frequency bars for sound playing on the default output."
+click = "none"
+
+[panel]
+view = "spectrum"
+bars = 12
+
+[desktop]
+view = "spectrum"
+bars = 24
