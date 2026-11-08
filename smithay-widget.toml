@@ -2,12 +2,16 @@ api = 1
 id = "audio-visualizer"
 name = "Audio visualizer"
 description = "Live frequency bars for sound playing on the default output."
+program = "native"
+permissions = ["audio_output"]
+fps = 20
 click = "none"
 
 [panel]
-view = "spectrum"
-bars = 12
+view = "native"
+width = 58
 
 [desktop]
-view = "spectrum"
-bars = 24
+view = "native"
+width = 320
+height = 116
